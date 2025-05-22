@@ -27,8 +27,7 @@ function Footer() {
         {/* Contact & Réseaux Sociaux */}
         <div>
       <h2 className="text-xl font-bold mb-4">Contact</h2>
-      <p className="text-gray-400 text-sm">Email: emcboosst@gmail.com</p>
-      <p className="text-gray-400 text-sm">Téléphone: +212-661681866</p>
+     
       <div className="flex space-x-4 mt-4">
         <div>
           <p>ce site est réalisé par aya messour</p>
