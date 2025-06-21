@@ -56,12 +56,10 @@ function Banner() {
         </div>
         
         <div className="flex flex-col sm:flex-row gap-4 mt-6">
-          <button className="bg-gradient-to-r from-sky-600 to-cyan-600 text-white px-8 py-3 rounded-lg hover:from-sky-700 hover:to-cyan-700 transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-1 font-medium">
-            Obtenez un devis gratuit
-          </button>
+       
           <button 
             onClick={scrollToContact}
-            className="border-2 border-sky-600 text-sky-600 px-8 py-3 rounded-lg hover:bg-sky-50 transition-all duration-300 font-medium"
+       className="bg-gradient-to-r from-sky-600 to-cyan-600 text-white px-8 py-3 rounded-lg hover:from-sky-700 hover:to-cyan-700 transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-1 font-medium"
           >
             Contactez-nous
           </button>

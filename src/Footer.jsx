@@ -30,9 +30,9 @@ function Footer() {
      
       <div className="flex space-x-4 mt-4">
         <div>
-          <p>ce site est réalisé par aya messour</p>
+          <p>this web site is made by AYA MESSOUR</p>
           <p>Email : ayamessour35@gmail.com</p>
-        </div>
+        </div> 
         <a
           href="https://www.linkedin.com/in/aya-messour-45b933341"
           className="text-gray-400 hover:text-gray-200 text-xl"

@@ -115,19 +115,23 @@ function App() {
       {/* Hero / Banner Section */}
       <div
         id="home"
-        className="relative w-full mt-24 bg-gradient-to-t from-sky-500 to-blue-700 flex flex-col md:flex-row items-center justify-center text-white text-center px-6 pt-12"
+        className="relative w-full mt-24 bg-gradient-to-br from-blue-900 via-blue-700 to-sky-300 flex flex-col md:flex-row items-center justify-center text-white text-center px-6 pt-12"
       >
         <div className="max-w-2xl mb-8 md:mb-0">
-          <h1 className="text-4xl md:text-5xl font-bold bg-yellow-300 bg-clip-text p-5 m-7 text-transparent">
+          <h1 className="text-5xl md:text-5xl font-bold bg-yellow-300 bg-clip-text p-5 m-7 text-transparent">
             Nous Construisons La Maison De Vos Rêves
           </h1>
-          <p className="text-lg md:text-xl">
+          <p className="text-lg md:text-2xl">
             Découvrez nos services de haute qualité pour vos projets de
             construction et d'aluminium.
           </p>
-          <button className="bg-yellow-300 md:text-2xl text-sky-700 px-12 py-3 m-5 rounded-lg hover:bg-black hover:text-white transition-colors duration-300">
-            Nos services
-          </button>
+        <button
+  onClick={() => scrollToSection("services")}
+  className="bg-yellow-400 md:text-3xl font-bold text-sky-700 px-12 py-3 m-5 rounded-lg hover:bg-yellow-500 hover:text-white transition-colors duration-300"
+>
+  Nos services
+</button>
+
         </div>
         <img
           src={Worker}

@@ -2,9 +2,9 @@ import React from "react";
 import { FiArrowRight } from "react-icons/fi";
 
 // Import images
-import windowImage from "./Photos/product/window-4.jpeg";
-import windowImage1 from "./Photos/product/window-8.jpeg";
-import windowImage2 from "./Photos/product/window-3.jpeg";
+import windowImage from "./Photos/product/window-1.jpeg";
+import windowImage1 from "./Photos/product/window-2.jpeg";
+import windowImage2 from "./Photos/product/window-13.jpg";
 import doorImage from "./Photos/product/door-3.jpeg";
 import doorImage2 from "./Photos/product/door-12.jpeg";
 import doorImage3 from "./Photos/product/door-4.jpeg";
